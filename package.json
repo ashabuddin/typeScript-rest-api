@@ -7,18 +7,18 @@
     "dist": "npx tsc",
     "dev": "nodemon src/server.ts",
     "start": "node dist/server.js",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --fix",
     "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
     "@types/node": "^22.10.7",
     "husky": "^9.1.7",
-    "lint-staged": "^15.4.1",
     "nodemon": "^3.1.9",
+    "prettier": "3.4.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   }
