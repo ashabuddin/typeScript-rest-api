@@ -19,7 +19,7 @@
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
-    "@types/node": "^22.10.7",
+    "@types/node": "^22.10.10",
     "@types/source-map-support": "^0.5.10",
     "husky": "^9.1.7",
     "nodemon": "^3.1.9",
@@ -35,6 +35,7 @@
     "express": "^4.21.2",
     "helmet": "^8.0.0",
     "mongoose": "^8.9.5",
+    "rate-limiter-flexible": "^5.0.5",
     "source-map-support": "^0.5.21",
     "ts-migrate-mongoose": "^3.8.9",
     "winston": "^3.17.0",
